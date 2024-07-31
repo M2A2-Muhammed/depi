@@ -38,4 +38,4 @@ jobs:
               run: ls -R
             
             - name: check downloaded file
-              run: grep -i "dragon" from dragon.txt 
+              run: grep -i "dragon" dragon.txt 
