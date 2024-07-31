@@ -15,4 +15,6 @@ jobs:
             - name: run shell script
               run: | 
                    chmod +x script.sh
+                   chmod +x cowsay.sh
                    ./script.sh
+                   ./cowsay
