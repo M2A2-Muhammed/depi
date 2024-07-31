@@ -17,4 +17,4 @@ jobs:
                    chmod +x script.sh
                    chmod +x cowsay.sh
                    ./script.sh
-                   ./cowsay
+                   ./cowsay.sh
