@@ -1,2 +1,14 @@
 name: my first gihub action | shell script
 
+on: push
+
+jobs:
+    job1:
+        runs-on: ubuntu-latest
+        steps:
+            - name: list files
+              run:   ls -ltra
+
+            - name: run shell script
+              run: chmod +x script.sh
+                   | ./scripts.sh
