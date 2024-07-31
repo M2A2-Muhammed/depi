@@ -26,6 +26,7 @@ jobs:
                 path: dragon.txt 
                 
     job2:
+        needs: job1
         runs-on: ubuntu-latest
         steps:
             - name: download dragon file from artifact
