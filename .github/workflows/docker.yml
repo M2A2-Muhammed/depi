@@ -1,6 +1,12 @@
 name: docker activities
 
-on: push
+on: 
+    workflow_dispatch:
+        inputs:
+            my_input:
+                description: My input description
+                required: false
+                type: string
 
 jobs:
     docker:
