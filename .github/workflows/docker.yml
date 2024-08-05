@@ -8,5 +8,4 @@ jobs:
 
         steps:
             - name: Docker Login
-              run: echo docker login --username=${{ vars.docker_username }} --password=${{ secrets.docker_pwd }}
-              
+              run: docker login --username=${{ vars.docker_username }} --password=${{ secrets.docker_pwd }}
