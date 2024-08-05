@@ -1,6 +1,6 @@
 name: my first gihub action | shell script
 
-on: push
+on: pull_request
 
 jobs:
     job1:
